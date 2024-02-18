@@ -27,8 +27,8 @@ const navItems = [
     pathName: "/news",
   },
   {
-    route: "About",
-    pathName: "/about",
+    route: "Post",
+    pathName: "/post",
   },
   {
     route: "Contact",
