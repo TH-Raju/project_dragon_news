@@ -5,9 +5,12 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, Grid } from "@mui/material";
-
 import topNews from "@/assets/tech.jpg";
 import topNews2 from "@/assets/robot.jpg";
+import t3 from "@/assets/i2.jpg";
+import t4 from "@/assets/i3.jpg";
+import t5 from "@/assets/i4.jpg";
+import t6 from "@/assets/i5.jpg";
 import Image from "next/image";
 
 const LatestNews = () => {
@@ -60,11 +63,37 @@ const LatestNews = () => {
 
               <CardContent>
                 <Button
-                  variant="contained"
                   color="error"
-                  className="bg-red-500 text-white my-5"
+                  className="bg-blue-500 text-white my-5 hover:bg-blue-900"
                 >
-                  Technology
+                  Robot
+                </Button>
+                <Typography gutterBottom component="div">
+                  Breakthrough in Robotics: AI-Powered Robots Revolutionize
+                  Industries with Unprecedented Efficiency.
+                </Typography>
+                <Typography gutterBottom className="my-3">
+                  By TH-Raju - Jan 10 2024
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Advancements in Robotics: AI-Driven Machines Set to Transform
+                  Industries, Revolutionizing Efficiency and Workflows Across
+                  Sectors Worldwide.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        <Grid item xs={6}>
+          <Card>
+            <CardActionArea>
+              <CardMedia>
+                <Image src={t4} alt="topNews" width={800} className="h-56" />
+              </CardMedia>
+
+              <CardContent>
+                <Button className="bg-green-500 hover:bg-green-900 text-white my-5">
+                  Universe
                 </Button>
                 <Typography gutterBottom component="div">
                   Breakthrough in Robotics: AI-Powered Robots Revolutionize
@@ -86,23 +115,19 @@ const LatestNews = () => {
           <Card>
             <CardActionArea>
               <CardMedia>
-                <Image src={topNews2} alt="topNews" width={800} />
+                <Image src={t5} alt="topNews" width={800} className="h-56" />
               </CardMedia>
 
               <CardContent>
-                <Button
-                  variant="contained"
-                  color="error"
-                  className="bg-red-500 text-white my-5"
-                >
-                  Technology
+                <Button className="bg-lime-500 hover:bg-lime-900 text-white my-5">
+                  Drone
                 </Button>
                 <Typography gutterBottom component="div">
                   Breakthrough in Robotics: AI-Powered Robots Revolutionize
                   Industries with Unprecedented Efficiency.
                 </Typography>
                 <Typography gutterBottom className="my-3">
-                  By TH-Raju - Feb 18 2024
+                  By TH-Raju - Sep 28 2024
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Advancements in Robotics: AI-Driven Machines Set to Transform
@@ -117,54 +142,19 @@ const LatestNews = () => {
           <Card>
             <CardActionArea>
               <CardMedia>
-                <Image src={topNews2} alt="topNews" width={800} />
+                <Image src={t3} alt="topNews" width={800} className="h-56" />
               </CardMedia>
 
               <CardContent>
-                <Button
-                  variant="contained"
-                  color="error"
-                  className="bg-red-500 text-white my-5"
-                >
-                  Technology
+                <Button className="bg-emerald-500 hover:bg-emerald-900 text-white my-5">
+                  Programming
                 </Button>
                 <Typography gutterBottom component="div">
                   Breakthrough in Robotics: AI-Powered Robots Revolutionize
                   Industries with Unprecedented Efficiency.
                 </Typography>
                 <Typography gutterBottom className="my-3">
-                  By TH-Raju - Feb 18 2024
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Advancements in Robotics: AI-Driven Machines Set to Transform
-                  Industries, Revolutionizing Efficiency and Workflows Across
-                  Sectors Worldwide.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-        </Grid>
-        <Grid item xs={6}>
-          <Card>
-            <CardActionArea>
-              <CardMedia>
-                <Image src={topNews2} alt="topNews" width={800} />
-              </CardMedia>
-
-              <CardContent>
-                <Button
-                  variant="contained"
-                  color="error"
-                  className="bg-red-500 text-white my-5"
-                >
-                  Technology
-                </Button>
-                <Typography gutterBottom component="div">
-                  Breakthrough in Robotics: AI-Powered Robots Revolutionize
-                  Industries with Unprecedented Efficiency.
-                </Typography>
-                <Typography gutterBottom className="my-3">
-                  By TH-Raju - Feb 18 2024
+                  By TH-Raju - Aug 20 2024
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Advancements in Robotics: AI-Driven Machines Set to Transform
