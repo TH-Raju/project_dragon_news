@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const { Box } = require("@mui/material");
 import * as React from "react";
 import Card from "@mui/material/Card";
@@ -96,16 +97,16 @@ const LatestNews = () => {
                   Universe
                 </Button>
                 <Typography gutterBottom component="div">
-                  Breakthrough in Robotics: AI-Powered Robots Revolutionize
-                  Industries with Unprecedented Efficiency.
+                  From Code to Flight: Unlocking the Potential of Drones Through
+                  Advanced Programming Techniques
                 </Typography>
                 <Typography gutterBottom className="my-3">
                   By TH-Raju - Feb 18 2024
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Advancements in Robotics: AI-Driven Machines Set to Transform
-                  Industries, Revolutionizing Efficiency and Workflows Across
-                  Sectors Worldwide.
+                  Exploring Drone Programming: A Comprehensive Journey into
+                  Flight Control, Automation, and Precision Navigation in the
+                  Robotics Universe.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -123,16 +124,16 @@ const LatestNews = () => {
                   Drone
                 </Button>
                 <Typography gutterBottom component="div">
-                  Breakthrough in Robotics: AI-Powered Robots Revolutionize
-                  Industries with Unprecedented Efficiency.
+                  Navigating the Digital Sky: A Deep Dive into Drone Programming
+                  and Autonomous Flight Systems.
                 </Typography>
                 <Typography gutterBottom className="my-3">
                   By TH-Raju - Sep 28 2024
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Advancements in Robotics: AI-Driven Machines Set to Transform
-                  Industries, Revolutionizing Efficiency and Workflows Across
-                  Sectors Worldwide.
+                  From Military Roots to Commercial Heights: Tracing the
+                  Trajectory of Drone Technology and its Impact on Modern
+                  Society
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -150,16 +151,16 @@ const LatestNews = () => {
                   Programming
                 </Button>
                 <Typography gutterBottom component="div">
-                  Breakthrough in Robotics: AI-Powered Robots Revolutionize
-                  Industries with Unprecedented Efficiency.
+                  Coding the Future: The Intersection of Robotics, Drones, and
+                  Programming in Today's Technology Landscape
                 </Typography>
                 <Typography gutterBottom className="my-3">
                   By TH-Raju - Aug 20 2024
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Advancements in Robotics: AI-Driven Machines Set to Transform
-                  Industries, Revolutionizing Efficiency and Workflows Across
-                  Sectors Worldwide.
+                  Coding the Future Sky: Tracing the Evolution of Drone
+                  Programming and its Transformative Influence on Contemporary
+                  Industries.
                 </Typography>
               </CardContent>
             </CardActionArea>

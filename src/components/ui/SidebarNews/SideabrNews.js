@@ -36,7 +36,7 @@ const SideabrNews = () => {
               Experts Urge Caution
             </Typography>
             <Typography gutterBottom className="my-3">
-              By TH-Raju - Mar 18 2024
+              By TH-Raju - June 18 2024
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Researchers unveil findings from a comprehensive study on social
@@ -80,10 +80,11 @@ const SideabrNews = () => {
         </Grid>
         <Grid item xs={10}>
           <Typography variant="body2" gutterBottom>
-            Cutting-edge robotic technology transforms industries worldwide
+            Cutting-Edge Technological Advancements: Exploring the Latest
+            Innovations in Robotics, AI, and Beyond
           </Typography>
           <Typography variant="body2" gutterBottom>
-            Mar 18 2024
+            Jun 16 2024
           </Typography>
         </Grid>
       </Grid>
@@ -99,10 +100,11 @@ const SideabrNews = () => {
         </Grid>
         <Grid item xs={10}>
           <Typography variant="body2" gutterBottom>
-            Cutting-edge robotic technology transforms industries worldwide
+            Revolutionizing Healthcare: How Robotics and AI are Transforming
+            Medical Diagnosis and Treatment.
           </Typography>
           <Typography variant="body2" gutterBottom>
-            Mar 18 2024
+            Apr 13 2024
           </Typography>
         </Grid>
       </Grid>
@@ -118,10 +120,11 @@ const SideabrNews = () => {
         </Grid>
         <Grid item xs={10}>
           <Typography variant="body2" gutterBottom>
-            Cutting-edge robotic technology transforms industries worldwide
+            Navigating Economic Landscapes: Insights into the Impact of Robotics
+            on Labor Markets and Productivity.
           </Typography>
           <Typography variant="body2" gutterBottom>
-            Mar 18 2024
+            May 28 2024
           </Typography>
         </Grid>
       </Grid>
@@ -137,10 +140,11 @@ const SideabrNews = () => {
         </Grid>
         <Grid item xs={10}>
           <Typography variant="body2" gutterBottom>
-            Cutting-edge robotic technology transforms industries worldwide
+            Sustainability Frontiers: Harnessing Robotics for Environmental
+            Conservation and Renewable Energy Solutions.
           </Typography>
           <Typography variant="body2" gutterBottom>
-            Mar 18 2024
+            Aug 18 2024
           </Typography>
         </Grid>
       </Grid>
