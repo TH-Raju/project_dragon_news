@@ -159,7 +159,7 @@ const LatestNews = () => {
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Coding the Future Sky: Tracing the Evolution of Drone
-                  Programming and its Transformative Influence on Contemporary
+                  Programming and its Transformable Influence on Contemporary
                   Industries.
                 </Typography>
               </CardContent>
